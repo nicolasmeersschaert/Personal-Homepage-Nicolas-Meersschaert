@@ -4,24 +4,69 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="styles/style.css">
 	<title>NM - Home</title>
 </head>
 
 <body>
 <nav>
-	<ul>
-		<li><a href="./">Home</a></li>
-		<li><a href="./hobbys.html">Hobbys</a></li>
-		<li><a href="./likes.html">Likes</a></li>
-	</ul>
+	<div class="container" id="nav">
+		<ul>
+			<li><a href="./" class="active">Home</a></li>
+			<li><a href="./hobbys.html">Hobbys</a></li>
+			<li><a href="./likes.html">Likes</a></li>
+		</ul>
+	</div>
 </nav>
-
-<h2>Personal Information:</h2>
-<p>Full name: Meersschaert Nicolas</p>
-<p>Adress: Karel-Degroote Laan 29 8500 Kortrijk</p>
-<p>Telefoon: <a href="tel:0032485352088">+32 485 35 20 88</a></p>
-<p>Email: <a href="mailto:nicolas.meersschaert@outlook.com">nicolas.meersschaert@outlook.com</a></p>
-<img src="./img/geit.jpg" alt="profielfoto"><br/>
+<div class="container" id="personal-information">
+	<h2>Personal Information:</h2>
+	<img src="./img/profile.jpeg" alt="profielfoto"><br/>
+	<p>Full name: Meersschaert Nicolas</p>
+	<p>Adress: Karel-Degroote Laan 29 8500 Kortrijk</p>
+	<p>Telefoon: <a href="tel:0032485352088">+32 485 35 20 88</a></p>
+	<p>Email: <a href="mailto:nicolas.meersschaert@student.vives.be">nicolas.meersschaert@outlook.com</a></p>
+	<img src="./img/geit.jpg" alt="profielfoto"><br/>
+</div>
+<div class="container" id="prognose">
+	<table>
+		<tr>
+			<th rowspan="2">Vakken</th>
+			<th colspan="4">Namen</th>
+		</tr>
+		<tr>
+			<th>Nicolas</th>
+			<th>Lian</th>
+			<th>Mustafa</th>
+			<th>Vince</th>
+		</tr>
+		<tr>
+			<th>Web. Dev</th>
+			<td>16/20</td>
+			<td>11/20</td>
+			<td>10/20</td>
+			<td>16/20</td>
+		</tr>
+		<tr>
+			<th>Fund. Of Programming</th>
+			<td>15/20</td>
+			<td>9/20</td>
+			<td>7/20</td>
+			<td>17/20</td>
+		</tr>
+		<tr>
+			<th>Excel</th>
+			<td>13/20</td>
+			<td>16/20</td>
+			<td>18/20</td>
+			<td>19/20</td>
+		</tr>
+	</table>
+</div>
+<footer>
+	<div class="container" id="footer">
+		&copy; Meersschaert Nicolas 2021
+	</div>
+</footer>
 </body>
 
 </html>
