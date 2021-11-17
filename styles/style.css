@@ -1,0 +1,87 @@
+body {
+	font-family: Verdana;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.container {
+	margin: 0 100px;
+}
+
+.container:not(#nav) {
+	margin: 10px 100px;
+}
+
+nav {
+	padding: 5px;
+	width: 100%;
+	z-index: 10;
+	background-color: #292c2f;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a.active {
+	color: rgba(255, 255, 255, 0.4);
+
+}
+
+nav ul li a:hover:not(.active) {
+	color: gray;
+}
+
+#personal-information-2 form {
+	width: 40%;
+	margin: auto;
+	border: 1px solid gray;
+	background: rgba(137, 207, 240, 0.2);
+	border-radius: 20px;
+	padding: 20px 40px;
+}
+#personal-information-2 form img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 2px solid gray;
+	width: 30%;
+
+}
+#prognose table {
+	border-collapse: collapse;
+	border: 1px solid #292c2f;
+	font-family: "Courier New";
+}
+#prognose table tr td, #prognose table tr th {
+	border: 1px dotted #292c2f;
+	padding: 2px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	background-color: #292c2f;
+	color: white;
+	padding: 10px 0;
+	margin-top: 10px;
+}
