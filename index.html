@@ -4,6 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+				integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+					integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+					crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="styles/style.css">
 	<title>NM - Home</title>
 </head>
@@ -19,6 +25,14 @@
 		</ul>
 	</div>
 </nav>
+<header>
+	<div class="container">
+		<div class="alert alert-warning alert-dismissible container mt-3">
+			<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+			<strong>Waarschuwing!</strong> Deze website is momenteen nog in aanbouw.
+		</div>
+	</div>
+</header>
 <div class="container" id="personal-information">
 	<h2>Personal Information:</h2>
 	<img src="./img/profile.jpeg" alt="profielfoto"><br/>
@@ -63,6 +77,67 @@
 		</tr>
 	</table>
 </div>
+<section>
+	<div class="container">
+		<h1>Vrienden</h1>
+		<div class="datagrid">
+			<table>
+				<thead>
+				<tr>
+					<th>Voornaam</th>
+					<th>Achternaam</th>
+					<th>Adres</th>
+					<th>Telefoon</th>
+					<th>Email</th>
+					<th>Leeftijd</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Nicolas</td>
+					<td>Meersschaert</td>
+					<td>Koekdreef 27 9324 Hasselt</td>
+					<td>nicolas.meersschaert@outlook.com</td>
+					<td>+32 485 35 20 88</td>
+					<td>17 Jaar</td>
+				</tr>
+				<tr class="alt">
+					<td>Jonas</td>
+					<td>Delanghe</td>
+					<td>Meersstraat 38 3893 Heestert</td>
+					<td>Jonas.Delanghe@gmail.com</td>
+					<td>+32 472 29 03 33</td>
+					<td>19 Jaar</td>
+				</tr>
+				<tr>
+					<td>Michiel</td>
+					<td>Dewilde</td>
+					<td>Sasboslaan 93 8500 Kortrijk</td>
+					<td>Michiel.Dewilde@gmail.com</td>
+					<td>+32 483 38 92 01</td>
+					<td>18 Jaar</td>
+				</tr>
+				<tr class="alt">
+					<td>Alex</td>
+					<td>Van den Hede</td>
+					<td>Rijselsestraat 2A 8500 Kortrijk</td>
+					<td>Alex.vandenhede@outlook.com</td>
+					<td>+32 483 83 28 02</td>
+					<td>20 Jaar</td>
+				</tr>
+				<tr>
+					<td>Vic</td>
+					<td>Vanseveren</td>
+					<td>Felix De Bethunelaan 27 8501 Heule</td>
+					<td>Vic.Vanseveren@gmail.com</td>
+					<td>+32 483 39 92 29</td>
+					<td>17 Jaar</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</section>
 <footer>
 	<div class="container" id="footer">
 		&copy; Meersschaert Nicolas 2021
