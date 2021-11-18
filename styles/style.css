@@ -1,7 +1,16 @@
 body {
-	font-family: Verdana;
+	font-family: 'Comfortaa', sans-serif;
 	margin: 0 auto;
 	max-width: 1280px;
+}
+header {
+	text-align: center;
+	background-image: url("../img/56.jpg");
+	height: 200px;
+	background-repeat: no-repeat;
+}
+.container {
+	padding: 5px 25px;
 }
 .container:not(#nav) {
 	margin-top: 10px;
@@ -62,6 +71,9 @@ nav ul li a:hover:not(.active) {
 	width: 30%;
 
 }
+#prognose {
+	clear: both;
+}
 #prognose table {
 	border-collapse: collapse;
 	border: 1px solid #292c2f;
@@ -72,6 +84,18 @@ nav ul li a:hover:not(.active) {
 	padding: 2px;
 	text-align: center;
 }
+.floatcontainer {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.floatcontainer .datacontainer {
+	margin: 10px 20px;
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
 
 footer {
 	text-align: center;
